@@ -9,4 +9,4 @@ class Usuario(Base):
     id = Column(Integer, primary_key=True)
     username = Column(String)
     password = Column(String)
-    document = Column(String)
+    document = Column(Integer)
